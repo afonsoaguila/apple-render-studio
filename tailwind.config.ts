@@ -13,23 +13,38 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'display': ['var(--font-display)'],
+        'text': ['var(--font-text)'],
+      },
       colors: {
+        // Apple brand colors using semantic tokens
+        apple: {
+          black: "hsl(var(--apple-black))",
+          white: "hsl(var(--apple-white))",
+          gray: "hsl(var(--apple-gray))",
+          'gray-light': "hsl(var(--apple-gray-light))",
+          blue: "hsl(var(--apple-blue))",
+          muted: "hsl(var(--apple-muted))",
+        },
+        
+        // Semantic design system colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        'hero-dark': "hsl(var(--hero-dark))",
+        'hero-light': "hsl(var(--hero-light))",
+        
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
@@ -39,24 +54,27 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+      },
+      
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-product': 'var(--gradient-product)',
+        'gradient-glow': 'var(--gradient-glow)',
+      },
+      
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'product': 'var(--shadow-product)',
+        'button': 'var(--shadow-button)',
+      },
+      
+      transitionTimingFunction: {
+        'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+        'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
       },
       borderRadius: {
         lg: "var(--radius)",
