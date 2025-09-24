@@ -4,24 +4,24 @@ const Footer = () => {
       <div className="container-apple">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="text-sm text-muted-foreground">
-            © 2025 MockBrand — Simulação de página para demonstração.
+            © 2025 MockBrand — Page simulation for demonstration.
           </div>
           
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Privacidade
+              Privacy
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Termos
+              Terms
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Contacte-nos
+              Contact us
             </a>
           </div>
         </div>
         
         <div className="mt-4 text-xs text-muted-foreground">
-          Este é um exemplo estilístico inspirado na Apple.com: tipografia, espaçamento, CTAs e foco em imagens de produto.
+          This is a stylistic example inspired by Apple.com: typography, spacing, CTAs and focus on product images.
         </div>
       </div>
     </footer>

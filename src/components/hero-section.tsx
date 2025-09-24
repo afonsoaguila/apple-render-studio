@@ -22,8 +22,8 @@ const HeroSection = ({
   imageAlt,
   variant = "dark",
   className,
-  primaryCTA = "Compre",
-  secondaryCTA = "Saiba mais",
+  primaryCTA = "Buy",
+  secondaryCTA = "Learn more",
   imagePosition = "right"
 }: HeroSectionProps) => {
   const isDark = variant === "dark";

@@ -54,10 +54,10 @@ const ProductCard = ({
           
           <div className="flex gap-3">
             <AppleButton variant="ghost" size="sm">
-              Saiba mais
+              Learn more
             </AppleButton>
             <AppleButton variant="primary" size="sm">
-              Compre
+              Buy
             </AppleButton>
           </div>
         </div>

@@ -13,12 +13,12 @@ const colors: ColorOption[] = [
     emoji: "📱"
   },
   {
-    name: "Azul",
+    name: "Blue",
     gradient: "from-blue-100 to-cyan-100", 
     emoji: "📱"
   },
   {
-    name: "Verde",
+    name: "Green",
     gradient: "from-green-100 to-emerald-100",
     emoji: "📱"
   },
@@ -34,9 +34,9 @@ const ColorShowcase = () => {
     <section className="hero-section bg-background">
       <div className="container-apple text-center">
         <h1 className="hero-text text-foreground mb-4">iPhone 17</h1>
-        <h2 className="product-tagline text-muted-foreground mb-6">Magicromático.</h2>
+        <h2 className="product-tagline text-muted-foreground mb-6">Magichromatic.</h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
-          Cores suaves e design que brilha em cada tom. Linhas limpas, câmeras nítidas e performance diária excelente.
+          Soft colors and design that shines in every tone. Clean lines, sharp cameras and excellent daily performance.
         </p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto mb-12">
@@ -54,10 +54,10 @@ const ColorShowcase = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <AppleButton variant="ghost" size="lg">
-            Saiba mais
+            Learn more
           </AppleButton>
           <AppleButton variant="primary" size="lg">
-            Compre
+            Buy
           </AppleButton>
         </div>
       </div>

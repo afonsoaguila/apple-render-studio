@@ -14,13 +14,13 @@ const TVBanner = () => {
           <div className="relative h-80 flex items-center justify-center text-center text-white p-8">
             <div className="max-w-2xl">
               <h3 className="text-3xl font-display font-semibold mb-4">
-                Comece a ver
+                Start watching
               </h3>
               <p className="text-white/85 mb-6">
-                Drama · Nova temporada.
+                Drama · New season.
               </p>
               <AppleButton variant="primary" size="lg">
-                Assista
+                Watch
               </AppleButton>
             </div>
           </div>

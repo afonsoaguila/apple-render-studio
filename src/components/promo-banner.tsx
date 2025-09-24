@@ -7,17 +7,17 @@ const PromoBanner = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-soft">
             <h3 className="text-2xl font-display font-semibold text-foreground mb-4">
-              Compra um Mac ou iPad para a universidade
+              Buy a Mac or iPad for university
             </h3>
             <p className="text-muted-foreground mb-6">
-              Com descontos para educação. Escolhe uns AirPods ou outro acessório abrangido.
+              With education discounts. Choose AirPods or another eligible accessory.
             </p>
             <div className="flex gap-4">
               <AppleButton variant="ghost">
-                Saiba mais
+                Learn more
               </AppleButton>
               <AppleButton variant="primary">
-                Comprar
+                Shop
               </AppleButton>
             </div>
           </div>

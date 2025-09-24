@@ -27,10 +27,10 @@ const Navigation = () => {
           
           <div className="flex items-center space-x-4">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Conta
+              Account
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Loja
+              Shop
             </a>
           </div>
         </nav>

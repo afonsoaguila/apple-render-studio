@@ -15,28 +15,28 @@ const Index = () => {
     {
       id: "airpods-pro",
       title: "AirPods Pro 3", 
-      description: "O melhor cancelamento ativo de ruído do mundo em auriculares compactos.",
+      description: "The world's best active noise cancellation in compact earbuds.",
       image: airpodsPro,
       imageAlt: "AirPods Pro 3"
     },
     {
       id: "apple-watch",
       title: "Apple Watch Series 11",
-      description: "Ideal para controlar a sua saúde.",
+      description: "Perfect for monitoring your health.",
       image: appleWatch,
       imageAlt: "Apple Watch Series 11"
     },
     {
       id: "watch-se",
       title: "Watch SE 3",
-      description: "Ande. Fale. Registe. Adore.",
+      description: "Walk. Talk. Track. Love.",
       image: appleWatch,
       imageAlt: "Apple Watch SE 3"
     },
     {
       id: "watch-ultra",
       title: "WATCH ULTRA 3",
-      description: "Animal de competição.",
+      description: "Competition beast.",
       image: appleWatch,
       imageAlt: "Apple Watch Ultra 3",
       variant: "dark" as const
@@ -50,8 +50,8 @@ const Index = () => {
       {/* iPhone 17 Pro Hero */}
       <HeroSection
         title="iPhone 17 Pro"
-        tagline="Pro em tudo."
-        description="Uma experiência poderosa com fotografia pro, desempenho de topo e um design refinado. Textos curtos, diretos e centrados no produto."
+        tagline="Pro in everything."
+        description="A powerful experience with pro photography, top performance and refined design. Short, direct texts focused on the product."
         image={iphone17Pro}
         imageAlt="iPhone 17 Pro"
         variant="dark"
@@ -60,8 +60,8 @@ const Index = () => {
       {/* iPhone Air Hero */}
       <HeroSection
         title="iPhone Air"
-        tagline="O iPhone mais fino de sempre. Com a força de um pro."
-        description="Design ultrafino, materiais premium e potência de um processador topo de linha — tudo num corpo surpreendentemente leve."
+        tagline="The thinnest iPhone ever. With the power of a pro."
+        description="Ultra-thin design, premium materials and the power of a top-tier processor — all in a surprisingly lightweight body."
         image={iphoneAir}
         imageAlt="iPhone Air"
         variant="light"
@@ -80,8 +80,8 @@ const Index = () => {
       {/* iPad Air Hero */}
       <HeroSection
         title="iPad Air"
-        tagline="Agora com o superpotente processador M3."
-        description="Design refinado encontra desempenho profissional num tablet surpreendentemente fino e leve."
+        tagline="Now with the supercharged M3 processor."
+        description="Refined design meets professional performance in a surprisingly thin and light tablet."
         variant="light"
         className="py-16"
       />
