@@ -4,6 +4,7 @@ import ColorShowcase from "@/components/color-showcase";
 import { ProductGrid } from "@/components/product-grid";
 import PromoBanner from "@/components/promo-banner";
 import TVBanner from "@/components/tv-banner";
+import MeetingsWidget from "@/components/meetings-widget";
 import Footer from "@/components/footer";
 import iphone17Pro from "@/assets/iphone-17-pro.png";
 import iphoneAir from "@/assets/iphone-air.png";
@@ -88,6 +89,21 @@ const Index = () => {
       
       {/* TV+ Banner */}
       <TVBanner />
+      
+      {/* Meetings Widget */}
+      <section className="py-20 bg-background">
+        <div className="container-apple">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+              Schedule a Meeting
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Book a consultation with our team to discuss your needs and explore our solutions.
+            </p>
+          </div>
+          <MeetingsWidget />
+        </div>
+      </section>
       
       <Footer />
     </div>
