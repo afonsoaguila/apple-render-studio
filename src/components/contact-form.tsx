@@ -33,7 +33,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://hook.eu2.make.com/xepn8fywybog2qrvm5d5v5xurh29hk3c", {
+      const response = await fetch("https://hook.eu2.make.com/5bmdmmm9l93lguwbrpmkiye71d7x4chw", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
